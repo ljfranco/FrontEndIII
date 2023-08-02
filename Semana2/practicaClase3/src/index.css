@@ -1,0 +1,13 @@
+img {
+    height: 200px;
+}
+
+.producto {
+    border: solid 1px black;
+    width: 400px;
+
+}
+
+.body {
+    display: flex;
+}
