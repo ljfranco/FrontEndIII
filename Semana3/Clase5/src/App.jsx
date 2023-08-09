@@ -3,18 +3,18 @@ import './App.css'
 import Hijo from './Hijo'
 
 function App() {
-  const [text, setText] = useState()
+  const [text, setText] = useState([])
 
   return (
     <>
       <h1>Prueba Hooks - UseState</h1>
       <div className="card">
-        <button onClick={() => setText("Apretaste el Boton")}>
+        <button onClick={() => setText([...text, <li key={text.length}>Apretaste el Boton</li>])}>
           No apretar
         </button>
-        <p>
+        <div>
           <Hijo text={text} />
-        </p>
+        </div>
       </div>
 
     </>

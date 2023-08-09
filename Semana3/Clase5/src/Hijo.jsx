@@ -2,9 +2,9 @@ import React from 'react'
 
 function Hijo({ text }) {
     return (
-        <div>
+        <ul>
             {text}
-        </div>
+        </ul>
     )
 }
 
