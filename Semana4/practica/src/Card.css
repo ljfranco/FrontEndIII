@@ -1,0 +1,29 @@
+/* Card.css */
+
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.card img {
+    width: 150px; /* Ancho fijo para todas las imágenes */
+    height: 200px; /* Alto fijo para todas las imágenes */
+    object-fit: cover; /* Escalar y recortar la imagen para encajar en el contenedor */
+    margin-bottom: 8px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #777;
+}
